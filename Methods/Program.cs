@@ -1,20 +1,16 @@
 ﻿using System.Text;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Methods
 {
     internal class Program
     {
-        // 1, 2, 2, 3,3,3,1, 1,1,1,4,0 3 soni 3 marta 
         static void Main(string[] args)
         {
             string str = Console.ReadLine();
             string result = "";
             bool shart = str.Contains('0');
-            Console.WriteLine(decimal.MaxValue);
             while (!shart)
             {
-
                 result += str;
                 str = Console.ReadLine();
                 shart = str.Contains('0');
@@ -50,7 +46,6 @@ namespace Methods
                         prevNum = str[i + 1];
                         counter = 1;
                     }
-
                 }
             }
                 
