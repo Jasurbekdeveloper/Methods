@@ -5,7 +5,6 @@ namespace Methods
 {
     internal class Program
     {
-        // 1, 2, 2, 3,3,3,1, 1,1,1,4,0 3 soni 3 marta 
         static void Main(string[] args)
         {
             string str = Console.ReadLine();
@@ -51,6 +50,9 @@ namespace Methods
                         counter = 1;
                     }
 
+
+
+                    //sdfsrfgd/ed
                 }
             }
                 
